@@ -1,0 +1,38 @@
+body{
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.input{
+    width: 500px;
+    height: 500px;
+}
+
+.input-text{
+    width: 99%;
+    height: 86%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.output{
+    width: 500px;
+    height: 500px;
+}
+
+.output-text{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    width: 99%;
+    height: 86%;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+}
